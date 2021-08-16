@@ -25,6 +25,7 @@
     "prettier-plugin-tailwind": "^2.2.12"
   },
   "peerDependencies": {
+    "@graphql-eslint/eslint-plugin": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
     "eslint": "^7.32.0",
@@ -40,7 +41,7 @@
     "prettier-plugin-tailwind": "^2.2.12"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": "eslint"
+    "*.{js,ts,tsx,graphql}": "eslint"
   },
   "husky": {
     "hooks": {
